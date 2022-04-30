@@ -85,10 +85,14 @@ class HimnoFragment : Fragment() {
                 "nuestra estrella es inmortal\n" +
                 "y en Barrios aún sigue latente\n" +
                 "el progreso cual noble ideal."
-
+        val mp = MediaPlayer.create(activity,R.raw.himno_ugb)
         btn_Himno.setOnClickListener{
-            val mp = MediaPlayer.create(activity,R.raw.himno_ugb)
-            mp.start()
+            if(!mp.isPlaying){
+                mp.start()
+            }
+            else{
+                mp.pause()
+            }
         }
     }
 }
