@@ -87,7 +87,7 @@ class HimnoFragment : Fragment() {
                 "el progreso cual noble ideal."
 
         btn_Himno.setOnClickListener{
-            val mp = MediaPlayer.create(this,R.raw.himno_ugb)
+            val mp = MediaPlayer.create(activity,R.raw.himno_ugb)
             mp.start()
         }
     }
