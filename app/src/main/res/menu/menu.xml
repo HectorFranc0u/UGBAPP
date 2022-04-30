@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ic_Himno"
+        android:icon="@drawable/ic_himno"
+        android:title="Himno"/>
+    <item
+        android:id="@+id/ic_Calendarizacion"
+        android:icon="@drawable/ic_calendario"
+        android:title="Calendarizacion"/>
+    <item
+        android:id="@+id/ic_PortalEstudiante"
+        android:icon="@drawable/ic_notas"
+        android:title="Portal Estudiante"/>
+
+</menu>
